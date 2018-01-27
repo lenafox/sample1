@@ -1,0 +1,206 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    height: 50px;
+    background-color: lightgray;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 170px;
+    height: 65px;
+    margin-top: 5px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.menu-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item+.menu-item {
+    margin-left: 45px;
+}
+
+.menu-item_link {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-link {
+    padding: 15px 25px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.block-1 {
+    display: flex;
+    background-color: black;
+}
+
+.block-1-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.block-1-info {
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.block-1-info-button {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.style-button {
+    height: 30px;
+    width: 90px;
+    border-radius: 1px;
+    background-color: grey;
+    color: blanchedalmond;
+}
+
+.block-1-info-foto {
+    background-image: url("Baby-China.jpg");
+    height: 185px;
+    width: 600px;
+    margin-top: 21px;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.block-2-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    line-height: 1.5;
+}
+
+.block-2 {
+    background-color: lightgrey;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.block-3-container {
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-3 {
+    background-color: lightgray;
+}
+
+.block-3-container-content {
+    margin-top: 30px;
+}
+
+.block-3-container-foto {
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    background-color: yellow;
+    background-image: url("boat.jpg");
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+}
+
+.block-3-containet__item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-toggle {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.slider-toggle__item+.slider-toggle__item {
+    margin-left: 8px;
+}
+
+.slider-toggle__item+.slider-toggle__item {
+    margin-left: 8px;
+}
+
+.slider-toggle__button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #3a2929;
+    cursor: pointer;
+}
+
+.slider-toggle__button_active {
+    background-color: #3a29;
+}
